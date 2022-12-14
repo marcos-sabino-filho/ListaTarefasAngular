@@ -1,0 +1,6 @@
+<h1>Lista de detalhes</h1>
+<div>
+    <input type="text" class="form-control" placeholder="Nome da Tarefa" name="tarefa"
+        [(ngModel)]="tarefaParaEditar.nome" [value]="tarefaParaEditar.nome">
+    <i class="material-icons" (click)="AtualizarTarefaNoBanco();">done</i>
+</div>
